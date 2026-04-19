@@ -86,7 +86,7 @@ export const Navbar = () => {
         <ul className="hidden md:flex items-center gap-6 font-semibold ml-6">
           {actionLinks.map(link => (
             <li key={link.name}>
-              <Link to={(hasAcess || link.fixedAccess)?link.to:'/login'} className="text-gray-700 px-2 py-1 hover:text-black transition">
+              <Link to={(hasAcess || link.fixedAccess)?link.to:'/login'} className={`text-gray-700 px-2 py-1 hover:text-black transition ${link.name === 'About Us' ? 'whitespace-nowrap' : ''}`}>
                 {link.name}
               </Link>
             </li>
@@ -189,7 +189,7 @@ export const Navbar = () => {
               <li key={link.name}>
                 <Link
                   to={(hasAcess || link.fixedAccess)?link.to:'/login'}
-                  className="text-lg text-gray-700 block py-2 px-2 rounded hover:bg-gray-100"
+                  className={`text-lg text-gray-700 block py-2 px-2 rounded hover:bg-gray-100 ${link.name === 'About Us' ? 'whitespace-nowrap' : ''}`}
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.name}
