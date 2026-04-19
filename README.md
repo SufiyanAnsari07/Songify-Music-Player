@@ -119,5 +119,4 @@ npm run dev
 - `GET /api/users/me` — Get current user profile (auth required)
 
 ## License
-
 MIT
