@@ -34,7 +34,7 @@ const Footer = () => {
     const socialLinks = [
         { icon: Twitter, href: '#', name: 'Twitter' },
         { icon: Instagram, href: '#', name: 'Instagram' },
-        { icon: Github, href: 'https://github.com/Vishwanath362', name: 'Github' },
+        { icon: Github, href: 'https://github.com/SufiyanAnsari07', name: 'Github' },
         { icon: Mail, href: '#', name: 'Email' }
     ];
 
@@ -151,11 +151,11 @@ const Footer = () => {
                         <div className="flex flex-col gap-2 text-sm text-gray-400">
                             <div className="flex items-center gap-2">
                                 <MapPin className="w-4 h-4 text-green-400" />
-                                <span>Ambala, Haryana</span>
+                                <span>Najibabad, Bijnor</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <Mail className="w-4 h-4 text-green-400" />
-                                <span>vishwanath@songify.com</span>
+                                <span>Sufiyan@songify.com</span>
                             </div>
                         </div>
                     </div>
